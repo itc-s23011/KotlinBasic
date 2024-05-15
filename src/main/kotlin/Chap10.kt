@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     println("${age2}歳の子供は小学生ではない$flag22")
     println("${age2}歳の子供は中学生ではない$flag23")
 
-    println("----9.3----")
+    println("----10.3----")
     val flag31 = age2 !in range21
     val flag32 = age2 !in range22
     val flag33 = age2 !in range23
@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
     println("${age2}歳の子供は小学生ではない$flag32")
     println("${age2}歳の子供は中学校ではない$flag33")
 
-    println("----9.4----")
+    println("----10.4----")
     val rangeA: LongRange = 0..10_000_000_000L
     val rangeB: CharRange = 'A' .. 'E'
     val rangeC: CharRange = 'あ'.. 'お'

@@ -10,14 +10,26 @@ fun main(args: Array<String>) {
     }
 
     println("----12.2----")
-    val x2 = 5
+    val x2 = 2
     when (x2) {
-        1 -> println("ワン")
-        2 -> println("ツー")
-        3 -> println("スリー")
-        else -> println("ワン、ツー、スリー以外の数字です。")
+//        1 -> println("ワン")
+//        2 -> println("ツー")
+        1, 2 -> {
+            println("ワンかツーのどちらかです")
+            println("こんにちは")
+        }
+
+        3 -> {
+            println("スリー")
+            println("ありがとう！")
+        }
+
+        else -> {
+            println("ワン、ツー、スリー以外の数字です")
+            println("さようなら！")
+        }
     }
-    println("-------")
+    println("-----12.5----")
     val x5 = 2
     val message5 = when (x5) {
         1 -> "ワン"
